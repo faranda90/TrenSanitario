@@ -1,73 +1,107 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DINATE</title>
     <link rel="shortcut icon" href="./images/channels4_profile.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/style.css">
 </head>
+
 <body>
-    <header class="contenedorMenu">
+    <header class=" conteiner-fluid contenedorMenu">
         <div>
             <img id="logo" src="../images/Logo ministerio.png" alt="logo ministerio">
         </div>
-        <nav>
-            <ul class="listaMenu">
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./sobreNosotros.html">Sobre Nosotros</a>
-                </li>
-                <li>
-                    <a href="./galeria.html">Galería</a>
-                </li>
-                <li>
-                    <a href="#">Servicios</a>
-                </li>
-                <li>
-                    <a href="./contacto.html">Contacto</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg" data-bs-theme="dark" style="background-color: #37bbed;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                        <a class="nav-link" href="./sobreNosotros.html">Sobre Nosotros</a>
+                        <a class="nav-link" href="./galeria.html">Galería</a>
+                        <a class="nav-link" href="#">Servicios</a>
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                        
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        <section class="seccionCentral">
-            <div>
-                <h1 class="titulo">Servicios y Prestaciones</h1>
+        <section>
+            <div class="row ">
+                <div class="col-s-12 col-md-12 col-lg-2 cajaServicioInicial">
+                    <h1>Servicios y Prestaciones</h1>
+                </div>
+                <div class="col-xs-12 col-md-12 col-lg-4 cajaServicioInicial">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita quibusdam est autem id
+                        nesciunt
+                        ratione fugiat? Repellendus at, quas repudiandae optio fugit eaque assumenda veritatis modi
+                        quaerat,
+                        commodi necessitatibus ipsam.
+                        Amet ex veritatis nulla quasi perspiciatis exercitationem maxime voluptate accusantium a
+                        soluta.
+                        Eos
+                        maiores magnam tenetur quasi ut? Velit ea ad eum molestiae deserunt tempore, suscipit
+                        facilis
+                        beatae.
+                    </p>
+                </div>
+                <div class="container-sm col-md-12 col-lg-4 cajaServicioInicial videoServicio">
+                    <iframe  width="560" height="315"
+                        src="https://www.youtube.com/embed/sG--clWb4cw?si=bRPHJJ4mBNtTrVXm" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
             </div>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita quibusdam est autem id nesciunt ratione fugiat? Repellendus at, quas repudiandae optio fugit eaque assumenda veritatis modi quaerat, commodi necessitatibus ipsam.
-            Amet ex veritatis nulla quasi perspiciatis exercitationem maxime voluptate accusantium a soluta. Eos maiores magnam tenetur quasi ut? Velit ea ad eum molestiae deserunt tempore, suscipit facilis beatae. Nam, delectus.
-            Porro atque voluptatibus voluptate molestiae aliquid, laudantium quos ab beatae doloremque fugiat hic repudiandae maxime nesciunt vero suscipit, deserunt quibusdam accusamus illo nulla assumenda rerum modi velit enim necessitatibus. Aut.
-            Vero aut ea rem magni et quos temporibus iure saepe ipsa alias autem commodi quidem eveniet dicta numquam, obcaecati repudiandae accusantium natus. Molestias quaerat aspernatur architecto cum, accusamus sapiente quae!
-            Adipisci blanditiis maxime tenetur temporibus eligendi distinctio molestiae vitae illo corporis molestias. Itaque sequi reprehenderit rem qui hic ad perferendis facilis autem ab cumque minus sapiente, cum provident, temporibus aliquid.
-            </p>
         </section>
-        <section class="cajasDatos">
-            <div class="cajas">
+        <section class="row cajasDatos">
+            <div class="cajaServicios container-md col-xs-12 col-md-4 col-lg-3">
                 <h3>Anses</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet commodi vel quae, beatae incidunt id dicta? Error architecto fuga repellendus sit fugiat voluptates corporis a! Non temporibus facilis eius rem!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet commodi vel quae, beatae incidunt
+                    id dicta? Error architecto fuga repellendus sit fugiat voluptates corporis a! Non temporibus facilis
+                    eius rem!</p>
             </div>
-            <div class="cajas">
+            <div class="cajaServicios container-md col-xs-12 col-md-4 col-lg-3">
                 <h3>DNI</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt inventore esse et consequuntur voluptatibus, culpa dolorem, illum commodi tempora quidem unde mollitia distinctio id cumque corrupti accusamus doloribus quia ratione.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt inventore esse et consequuntur
+                    voluptatibus, culpa dolorem, illum commodi tempora quidem unde mollitia distinctio id cumque
+                    corrupti accusamus doloribus quia ratione.</p>
             </div>
-            <div class="cajas">
+            <div class="cajaServicios container-md col-xs-12 col-md-4 col-lg-3">
                 <h3>Medicamentos</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam modi ex inventore iure suscipit, maiores eaque velit vero veritatis, molestiae consequatur commodi labore magni numquam sequi vel ipsum id quia.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam modi ex inventore iure suscipit,
+                    maiores eaque velit vero veritatis, molestiae consequatur commodi labore magni numquam sequi vel
+                    ipsum id quia.</p>
             </div>
-            <div class="cajas">
+            <div class="cajaServicios container-md col-xs-12 col-md-4 col-lg-3">
                 <h3>Subsidios</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, veritatis culpa. Odio, laudantium fugiat? Explicabo incidunt saepe at dolore, aperiam totam. Facilis ullam nostrum vitae repudiandae quaerat! Ipsum, quas modi?</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, veritatis culpa. Odio, laudantium
+                    fugiat? Explicabo incidunt saepe at dolore, aperiam totam. Facilis ullam nostrum vitae repudiandae
+                    quaerat! Ipsum, quas modi?</p>
             </div>
-            <div class="cajas">
+            <div class="cajaServicios container-md col-xs-12 col-md-4 col-lg-3">
                 <h3>Instituciones</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus accusamus quisquam nihil ratione magni ipsa id voluptate, deleniti at inventore labore atque, facere cupiditate eligendi veniam? Magnam vero quibusdam hic!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus accusamus quisquam nihil ratione
+                    magni ipsa id voluptate, deleniti at inventore labore atque, facere cupiditate eligendi veniam?
+                    Magnam vero quibusdam hic!</p>
             </div>
-            <div class="cajas">
+            <div class="cajaServicios container-md col-xs-12 col-md-4 col-lg-3">
                 <h3>Obras Sociales</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, voluptatem aliquam odit officia velit sapiente eligendi voluptas ipsum omnis perspiciatis mollitia voluptatibus maiores corporis! Odit nisi sapiente quae suscipit doloribus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, voluptatem aliquam odit officia
+                    velit sapiente eligendi voluptas ipsum omnis perspiciatis mollitia voluptatibus maiores corporis!
+                    Odit nisi sapiente quae suscipit doloribus.</p>
             </div>
         </section>
     </main>
@@ -85,5 +119,9 @@
         </div>
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

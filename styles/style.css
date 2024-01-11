@@ -28,7 +28,7 @@
 }
 
 .listaMenu li {
-
+    color: #f0f8ff;
     margin-top: 60px;
     margin-right: 1rem;
 
@@ -78,6 +78,8 @@ h4 {
     padding-top: 10px;
     text-align: center;
     font-family: 'encode-sans condensed', sans-serif;
+    font-size: large;
+    
 }
 
 a {
@@ -315,16 +317,17 @@ textarea {
 .cajasTel1{
     font-family: 'encode-sans condensed', sans-serif;
     height: 150px;
-    width: 235px;
+    width: 150px;
     background-color: #ffffff;
     border-radius: 5px;
     margin-left: 70%;
     margin-top: 10%;
 
+
 }
 .cajasTel2{
     height: 150px;
-    width: 235px;
+    width: 150px;
     margin-left: 70%;
     margin-top: 30%;
     font-family: 'encode-sans condensed', sans-serif;
@@ -335,3 +338,35 @@ textarea {
 .cajasTel2 h3{
     color: #37bbed;
 }
+
+/*Servicios*/
+.cajaServicioInicial{
+    margin: 2rem;
+
+}
+.cajaServicioInicial h1{
+    text-align: center;
+}
+.cajaServicioInicial p{
+    text-align: justify;
+}
+.cajaServicios{
+    margin: 1rem;
+    padding: 1rem;
+    
+
+}
+.cajaServicios h3{
+    color: #37bbed;
+    font-family: 'encode-sans condensed', sans-serif;
+    
+}
+
+
+    @media (max-width: 990px){
+        .videoServicio{
+            display: flex;
+            justify-content: center;
+        }
+
+    }
