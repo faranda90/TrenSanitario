@@ -12,28 +12,42 @@
 </head>
 
 <body>
-    <header class=" conteiner-fluid contenedorMenu">
-        <div>
-            <img id="logo" src="../images/Logo ministerio.png" alt="logo ministerio">
-        </div>
-        <nav class="navbar navbar-expand-lg" data-bs-theme="dark" style="background-color: #37bbed;">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
+    <header class="conteiner-fluid contenedorMenu">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+
+            <div class=" nav">
+                <a href="" class="navbar-brand text-info fw-semibold fs-4">
+                    <img id="logo" src="../images/Logo ministerio.png" alt="logo ministerio">
+                </a>
+                <button class="navbar-toggler offcanvas-end" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#menuLateral">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
-                        <a class="nav-link" href="./sobreNosotros.html">Sobre Nosotros</a>
-                        <a class="nav-link" href="./galeria.html">Galería</a>
-                        <a class="nav-link" href="./servicios.html">Servicios</a>
-                        <a class="nav-link" href="#">Contacto</a>
-                        
+                <section class="offcanvas offcanvas-start" id="menuLateral" tabindex="-1">
+                    <div class="offcanvas-header" data-bs-theme="dark">
+                        <h5 class="offcanvas-title text-info">Tren de Desarrollo Social</h5>
+                        <button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="offcanvas"></button>
                     </div>
-                </div>
+                    <div class="offcanvas-body d-flex flex-column justify-content-between px-0">
+                        <ul class="navbar-nav fs-5 justify-content-evenly navigLi">
+                            <li class="nav-item p-3 py-md-1">
+                                <a href="../index.html" class="nav-link">Inicio</a>
+                            </li>
+                            <li class="nav-item p-3 py-md-1">
+                                <a href="./sobreNosotros.html" class="nav-link">Sobre Nosotros</a>
+                            </li>
+                            <li class="nav-item p-3 py-md-1">
+                                <a href="./galeria.html" class="nav-link">Galería</a>
+                            </li>
+                            <li class="nav-item p-3 py-md-1">
+                                <a href="./servicios.html" class="nav-link">Servicios</a>
+                            </li>
+                            <li class="nav-item p-3 py-md-1">
+                                <a href="#" class="nav-link">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
             </div>
         </nav>
     </header>
@@ -43,8 +57,8 @@
 
             </div>
             <aside>
-                <div class="row">
-                    <div class="formulario col-sm-12 col-md-12 col-lg-6">
+                <div class="row container-fluid">
+                    <div class="formulario  col-sm-12 col-md-12 col-lg-6">
                         <form action="">
                             <div class="">
                                 <h1 class="tituloContacto">Contactanos</h1>
@@ -86,20 +100,19 @@
 
             </aside>
             <section>
-                <div class="cajasContacto row">
+                <div class="cajasContacto">
                     <div class="">
-                        <div class="cajasTel1">
+                        <div class="cajasTel1 ">
                             <h3>Número de Contacto</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi ab magnam id natus eaque
                                 quibusdam officiis corporis voluptatibus esse ipsum, quidem sit soluta doloribus porro,
                                 harum dolor, asperiores saepe temporibus!</p>
                         </div>
-                        <div class="cajasTel2">
-                            <h3>Números de Importantes</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis omnis nihil porro
-                                laudantium! Numquam aliquam, voluptates veniam quae officia voluptas? Nobis nostrum
-                                facilis
-                                architecto, quos culpa vitae suscipit nemo esse!</p>
+                        <div class="cajasTel2 col-sm-12">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8199597480575!2d-58.378650799999996!3d-34.60871389999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccad198befe59%3A0xf16f5ec9a1dc0adb!2sAv.%20de%20Mayo%20869%2C%20C1084AAD%20CABA!5e0!3m2!1ses-419!2sar!4v1705023869158!5m2!1ses-419!2sar"
+                                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
 
@@ -114,14 +127,18 @@
             <p>&copy;Todos los derechos reservados</p>
         </div>
         <div>
-            <img id="iconInst" src="../images/icon-instagram.png" alt="icono instagram">
-            <img id="iconTw" src="../images/icon-x.png" alt="icono twitter">
+            <a target="_blank" href="https://www.instagram.com/mincapitalhumano/">
+                <iconify-icon id="iconInst" icon="skill-icons:instagram"></iconify-icon>
+            </a>
+            <a target="_blank" href="https://twitter.com/dinate">
+                <iconify-icon id="iconTw" icon="fa6-brands:square-x-twitter"></iconify-icon>
+            </a>
         </div>
-
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </body>
 
 </html>
