@@ -13,22 +13,32 @@
     background-color: #37bbed;
     height: 90px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+
+
+
+
+
+
 }
 
 #logo {
     height: 90px;
     padding-top: px;
     padding-left: 2 rem;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .listaMenu {
-    color: #37bbed;
-    display: flex;
+    color: #ffffff;
+
+
 }
 
 .listaMenu li {
-    color: #37bbed;
+    color: #fafafa;
     margin-top: 60px;
     margin-right: 1rem;
 
@@ -36,7 +46,7 @@
 
 .nav {
     .offcanvas {
-        background-color: #1e293b;
+        background-color: #2e4a5a;
         display: flexbox;
         justify-content: end;
     }
@@ -58,9 +68,7 @@
     }
 }
 
-li a {
-    text-decoration: none;
-}
+
 
 li {
     list-style: none;
@@ -68,40 +76,40 @@ li {
 }
 
 .imgCentral {
-    display: flex;
-    align-items: center;
-    height: 350px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 20%;
+    padding-bottom: 20%;
+
+
 }
 
 .caja1 {
-    height: 70px;
-    width: 250px;
+
     background-color: #ffffff;
     position: relative;
-    bottom: 90px;
-    left: 50px;
+    bottom: 60px;
+    right: 150px;
     border-radius: 5px;
     box-shadow: #3a3838;
+    border-bottom: 10px;
+    border-bottom-color: #37bbed;
+    
 
 
 }
 
-.caja2 {
+
+/* .caja2 {
     height: 25px;
     width: 250px;
     background-color: #37bbed;
     position: relative;
     bottom: 95px;
-    left: 50px;
+    right: 150px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     box-shadow: #3a3838;
 
-}
+} */
 
 h4 {
     padding-top: 10px;
@@ -118,6 +126,7 @@ a {
 
 .titulo {
     font-family: 'encode-sans condensed', sans-serif;
+    font-weight: 700;
     position: relative;
     bottom: 20px;
     text-align: center;
@@ -240,26 +249,29 @@ a {
 
 
 }
-.imagenesGaleria{
+
+.imagenesGaleria {
     display: flex;
     justify-content: center;
 }
+
 .imgMuestra {
     width: 560px;
     height: 315px;
     display: flex;
     text-align: center;
-    
+
     border-width: 5px;
     border-style: solid;
     border-color: #ffffff;
     border-radius: 10px;
 }
-.tituloGaleria{
+
+.tituloGaleria {
     display: flex;
     text-align: center;
-    }
-    
+}
+
 .cajasDatos {
     display: flex;
     justify-content: center;
@@ -421,4 +433,11 @@ textarea {
         justify-content: center;
     }
 
+}
+
+
+
+.offcanvas-end {
+    flex-direction: column;
+    justify-content: end;
 }

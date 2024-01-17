@@ -14,53 +14,75 @@
 <body>
     <header class=" conteiner-fluid contenedorMenu">
         <div>
-            <img id="logo" src="./images/Logo ministerio.png" alt="logo ministerio">
+            <a href="" class="navbar-brand text-info fw-semibold fs-4">
+                <img id="logo" src="../images/Logo ministerio.png" alt="logo ministerio">
+            </a>
         </div>
-        <nav class="navbar navbar-expand-lg" data-bs-theme="dark" style="background-color: #37bbed;">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                        <a class="nav-link" href="./pages/sobreNosotros.html">Sobre Nosotros</a>
-                        <a class="nav-link" href="./pages/galeria.html">Galería</a>
-                        <a class="nav-link" href="./pages/servicios.html">Servicios</a>
-                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-                        
-                    </div>
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class=" nav">
+
+
+                    <button class="navbar-toggler offcanvas-end" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#menuLateral ">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <section class="offcanvas offcanvas-start" id="menuLateral" tabindex="-1">
+                        <div class="offcanvas-header" data-bs-theme="dark">
+                            <h5 class="offcanvas-title text-info">Tren de Desarrollo Social</h5>
+                            <button class="btn-close" type="button" aria-label="Close"
+                                data-bs-dismiss="offcanvas"></button>
+                        </div>
+                        <div class="offcanvas-body d-flex flex-column justify-content-between px-0">
+                            <ul class="navbar-nav fs-5 justify-content-evenly navigLi">
+                                <li class="nav-item p-3 py-md-1">
+                                    <a href="#" class="nav-link">Inicio</a>
+                                </li>
+                                <li class="nav-item p-3 py-md-1">
+                                    <a href="./pages/sobreNosotros.html" class="nav-link">Sobre Nosotros</a>
+                                </li>
+                                <li class="nav-item p-3 py-md-1">
+                                    <a href="./pages/galeria.html" class="nav-link">Galería</a>
+                                </li>
+                                <li class="nav-item p-3 py-md-1">
+                                    <a href="./pages/servicios.html" class="nav-link">Servicios</a>
+                                </li>
+                                <li class="nav-item p-3 py-md-1">
+                                    <a href="./pages/contacto.html" class="nav-link">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
                 </div>
-            </div>
+        </div>
         </nav>
+        </div>
+
     </header>
     <main>
-        <div>
-            <img class="container-md imgCentral" src="./images/tren principal.png" alt="tren trabajando">
+        <div class="jumbotron imgCentral"
+            style="background-image: url(./images/tren\ principal.png); background-size:cover;">
         </div>
-        <div class="conteiner-md caja1 panel panel-default">
-            <h4>Tren de Desarrollo Social y Sanitario "Dr. Ramón Carrillo"</h4>
+        <div >
+            <div class=" caja1 border-bottom border-color-secondary">
+                <h4>Tren de Desarrollo social "Dr. Ramón Carrillo"</h4>
+            </div>
+            <div class="container caja2"></div>
+            <div class="titulo">
+                <h1 class="titulo">Trenes de Desarrollo Social y Sanitarios</h1>
+            </div>
         </div>
-        <div class="conteiner-fluid caja2"></div>
-        <div class="titulo">
-            <h1 class="titulo">Dirección Nacional de Dispositivos Territoriales</h1>
-        </div>
+        
         <section>
             <div>
                 <p class="textoPresentacion">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum deserunt voluptates vel modi
-                    voluptate. Totam maiores iure reprehenderit aspernatur tenetur aperiam sed ratione blanditiis
-                    deserunt sit, recusandae adipisci libero placeat.
-                    Cupiditate ad illum nisi voluptatum quidem voluptates sapiente nihil adipisci repudiandae, quaerat
-                    autem voluptate nobis atque rerum, quae, neque non dolore repellat inventore! Atque quod nobis
-                    voluptate similique ducimus accusantium.
-                    Eaque eius harum consequatur velit laborum deserunt beatae animi nihil aliquid. Laborum deserunt
-                    neque quo id voluptatibus odio quod modi excepturi, laboriosam ut molestias, aliquid fugiat esse,
-                    quae ullam est.
+                    Los trenes de desarrollo social y sanitarios se dedican a la tarea de recorrer el país, para que
+                    puedas acceder a tramites, servicios, y atención médica, cerca de tu casa.
                 </p>
+                <p class="textoPresentacion">Nuestro objetivo principal es cercar las políticas públicas del Estado a todo el territorio nacional
+                    para lograr una mayor equidad territorial, promoviendo el desarrollo de las personas, las familias y
+                    su contexto. Construyendo a nuestro paso redes sociales, respetando las particularidades de cada
+                    región con una mirada integral e interdisciplinaria.</p>
             </div>
 
             <div class="container-fluid videoPresentacion">
