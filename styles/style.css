@@ -63,7 +63,7 @@
     @media (max-width: 768px) {
         .navbar-nav>li:hover {
             background-color: #0dcaf0;
-            text-align: end;
+            text-align: start;
         }
     }
 }
@@ -85,37 +85,22 @@ li {
 .caja1 {
 
     background-color: #ffffff;
+    /* height: fit-content; */
     position: relative;
-    bottom: 60px;
-    right: 150px;
+    bottom: 5px;
     border-radius: 5px;
-    box-shadow: #3a3838;
-    border-bottom: 10px;
-    border-bottom-color: #37bbed;
-    
 
 
 }
 
 
-/* .caja2 {
-    height: 25px;
-    width: 250px;
-    background-color: #37bbed;
-    position: relative;
-    bottom: 95px;
-    right: 150px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    box-shadow: #3a3838;
 
-} */
 
 h4 {
-    padding-top: 10px;
+    padding-top: 5px;
     text-align: center;
     font-family: 'encode-sans condensed', sans-serif;
-    font-size: large;
+    font-size: small;
 
 }
 
@@ -128,23 +113,21 @@ a {
     font-family: 'encode-sans condensed', sans-serif;
     font-weight: 700;
     position: relative;
-    bottom: 20px;
+    top: 10px;
     text-align: center;
 
 }
 
 .textoPresentacion {
     font-size: larger;
-    margin-top: 10px;
+    padding-top: 5%;
+    margin-top: 20px;
     margin-right: 50px;
     margin-left: 50px;
     margin-bottom: 20px;
 }
 
-.videoPresentacion {
-    margin-bottom: 1rem;
-    text-align: center;
-}
+
 
 /* footer */
 .contenedorPie {
@@ -205,32 +188,23 @@ a {
 
 /* Sobre Nosotros */
 .imgCentralSn {
-    position: relative;
-    left: 25%;
+padding-top: 20%;
+padding-bottom: 20%;
+height: 100px;
 }
 
 .caja1Sn {
-    height: 70px;
-    width: 250px;
     background-color: #ffffff;
+    /* height: fit-content; */
     position: relative;
-    bottom: 90px;
-    left: 25%;
+    bottom: 5px;
     border-radius: 5px;
 
 
 }
 
-.caja2Sn {
-    height: 25px;
-    width: 250px;
-    background-color: #37bbed;
-    position: relative;
-    bottom: 95px;
-    left: 25%;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
+
+
 
 /* Galeria */
 .seccionCentral {
