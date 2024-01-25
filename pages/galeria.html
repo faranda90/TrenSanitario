@@ -10,8 +10,12 @@
     <link rel="shortcut icon" href="./images/channels4_profile.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/poncho.min.css">
+    <link rel="stylesheet" href="dist/css/icono-arg.css">
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 
 <body>
@@ -71,27 +75,7 @@
                 <h1>Galería de imagenes</h1>
             </div>
         </section>
-        <section class="cajasDatos">
-            <div class="cajas">
-                <h3>Recorrido</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nemo pariatur obcaecati ea, rerum
-                    ut maiores voluptas,.</p>
-            </div>
-            <div class="cajas ">
-                <h3>Provincias y Localidades</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nemo pariatur obcaecati ea, rerum
-                    ut maiores voluptas,.</p>
-            </div>
-            <div class="cajas ">
-                <h3>Personas Atendidas</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nemo pariatur obcaecati ea, rerum
-                    ut maiores voluptas,.</p>
-            </div>
-            <div class="cajas">
-                <h3>Prestaciones</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nemo pariatur obcaecati ea, rerum
-                    ut maiores voluptas,.</p>
-            </div>
+
         </section class="row ">
         <div class="container imagenesGaleria ">
             <div id="carouselExampleIndicators" class="carousel slider carrousel-fade">
@@ -171,11 +155,60 @@
                 </button>
             </div>
         </div>
-
-
-
         </section>
-
+        <section>
+            <div>
+                <h2>Noticias Relevantes</h2>
+            </div>
+            <div>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="../images/cultura.png" class="card-img-top" alt="ministerio de cultura">
+                            <div class="card-body">
+                                <a class="ancorNoticias" href="https://www.cultura.gob.ar/cultura-en-el-tren-sanitario-que-sigue-recorriendo-el-pais-10808/">
+                                    <h3 class="card-title">El Ministerio de Cultural pone el programa "Cultura Solidaria" para acompañar al Tren "Dr. Ramón Carrillo"</h3>
+                                </a>
+                                
+                                <p class="card-text">El Ministerio de Cultura participa a través del Plan Nacional de Cultura Solidaria, acompañando con propuestas recreativas destinadas a las vecinas y los vecinos que asisten al tren.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="../images/biblioteca nacional.png" class="card-img-top" alt="biblioteca nacional">
+                            <div class="card-body ">
+                                <a class="ancorNoticias" href="https://www.bn.gov.ar/noticias/el-tren-de-desarrollo-social-y-sanitario-con-el-vagon-cultural-raul-scalabrini-ortiz-llego-a-la-ciudad-de-carlos-casares">
+                                    <h3 class="card-title ">El Tren de Desarrollo Social y Sanitario, con el Vagón Cultural Raúl Scalabrini Ortiz, llegó a la ciudad de Carlos Casares</h3>  
+                                </a>
+                                <p class="card-text">La Biblioteca Nacional "Mariano Moreno" acompaña al tren sanitario desde el vagón cultural</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="../images/biblioteca del congreso.png" class="card-img-top" alt="Biblioteca del Congreso">
+                            <div class="card-body">
+                                <a class="ancorNoticias" href="https://bcn.gob.ar/noticias/la-biblioteca-del-congreso-se-sube-al-tren-sanitario">
+                                    <h3 class="card-title">La Biblioteca del Congreso se sube al Tren Sanitario</h3>
+                                </a>
+                                
+                                <p class="card-text">Gracias a un acuerdo con el Ministerio de Desarrollo Social de la Nación, la Biblioteca del Congreso se sube al Tren Argentino para acercar sus actividades a las localidades más alejadas del país, reafirmando así el sentido federal de sus servicios.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
 
@@ -201,9 +234,13 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+
     </script>
 </body>
 

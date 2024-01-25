@@ -298,6 +298,12 @@ a {
     align-items: baseline;
 }
 
+.ancorNoticias{
+    font-family: 'encode-sans condensed', sans-serif;
+    color: #000000;
+    font-size: medium;
+    border: #000000;
+}
 /* contacto */
 
 
@@ -445,6 +451,13 @@ ul {
     font-family: 'encode-sans condensed', sans-serif;
 
 }
+.card{
+    margin: 5%;
+}
+.card h5{
+    color: #37bbed;
+}
+
 
 
 @media (max-width: 990px) {
