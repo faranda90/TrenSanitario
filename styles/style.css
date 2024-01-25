@@ -26,8 +26,8 @@
 
 #logo {
     height: 90px;
-    padding-top: px;
-    padding-left: 2 rem;
+
+    padding-left: 10%;
     display: flex;
     flex-direction: row-reverse;
 }
@@ -225,20 +225,9 @@ a {
 
 
 /* Galeria */
-.seccionCentral {
-    justify-content: space-between;
-}
-
 .seccionCentral h1 {
     text-align: center;
     margin-top: 40px;
-
-}
-
-.seccionCentral p {
-    margin-bottom: 40px;
-    margin-top: 20px;
-
 
 }
 
@@ -265,38 +254,9 @@ a {
     }
 }
 
-.tituloGaleria {
-    display: flex;
-    text-align: center;
-}
-
-.cajasDatos {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-
-}
-
-.cajas {
-    margin-top: 20px;
 
 
-}
 
-.cajas p {
-    font-family: 'encode-sans condensed', sans-serif;
-    height: 235px;
-    width: 150px;
-}
-
-.cajas h3 {
-    font-family: 'encode-sans condensed', sans-serif;
-    color: #37bbed;
-    height: 50;
-    width: 150px;
-    display: flex;
-    align-items: baseline;
-}
 
 .ancorNoticias{
     font-family: 'encode-sans condensed', sans-serif;
@@ -439,18 +399,12 @@ ul {
     text-align: justify;
 }
 
-.cajaServicios {
-    margin: 0% 1% 0% 10%;
-    padding-right: 15%;
-
-
+.cajaServicioInicial ul{
+    font-weight: bold;
 }
 
-.cajaServicios h3 {
-    color: #37bbed;
-    font-family: 'encode-sans condensed', sans-serif;
 
-}
+
 .card{
     margin: 5%;
 }
