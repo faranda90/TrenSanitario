@@ -1,0 +1,42 @@
+.contenedorMenu {
+    background-color: #37bbed;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    #logo {
+        height: 95%;
+        padding-top: 5%;
+        padding-left: 10%;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .listaMenu {
+        font-family: $tipografiaPrincipal;
+        color: #ffffff;
+    
+    
+    }
+    .listaMenu li {
+        color: #fafafa;
+    }
+}
+nav {
+    font-family: $tipografiaPrincipal;
+    .offcanvas {
+        background-color: #2e4a5a;
+        display: flexbox;
+        justify-content: end;
+        padding-top: 5%;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-toggler:focus {
+        outline: none;
+        box-shadow: none;
+    }
+}
