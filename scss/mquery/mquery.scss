@@ -1,0 +1,72 @@
+@media (max-width: 990px) {
+    .navbar-nav>li:hover {
+        background-color: #a9cad1;
+        text-align: start;
+
+    }
+
+    .contenedorPie {
+        height: 50px;
+    }
+
+
+    #logo2 {
+        background-color: #37bbed;
+        height: 80%;
+        display: flex;
+    }
+
+
+    .copyFooter {
+        display: none;
+    }
+
+    #iconInst {
+        font-size: 25px;
+        justify-content: start;
+        padding-bottom: 70%;
+    }
+
+    #iconTw {
+        font-size: 25px;
+        justify-content: start;
+        padding-bottom: 70%;
+    }
+
+    .imgMuestra {
+        height: 500px;
+    }
+
+    .videoServicio {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(min-width: 700px) {
+
+
+    .errorLink {
+        display: none;
+
+    }
+
+    .seccionCentral {
+        padding: 0 4em;
+    }
+
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .contact-wrapper>* {
+        padding: 2em;
+    }
+
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        text-align: left;
+    }
+}

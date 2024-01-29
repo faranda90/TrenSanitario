@@ -1,0 +1,46 @@
+main{
+    .imgCentral {
+        width: 100%;
+        height: auto;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    
+    .caja1 {
+        background-color: #ffffff;
+
+        position: relative;
+        top: 30%;
+        border-radius: 5px;
+    }
+    h4 {
+        padding-top: 5px;
+        text-align: center;
+        font-family: 'encode-sans condensed', sans-serif;
+        font-size: 60%;
+        font-weight: bold;
+    }
+    .titulo {
+        font-family: $tipografiaPrincipal;
+        font-weight: 700;
+        position: relative;
+        top: 10px;
+        text-align: center;
+    
+    }
+    .textoPresentacion {
+        text-align: center;
+        font-size: larger;
+        padding-top: 4%;
+        margin-top: 0px;
+        margin-right:5%;
+        margin-left: 5%;
+        margin-bottom: 0px;
+    }
+    
+    .videoPresentacion {
+        padding: 5% 5% 5% 5%;
+    }
+}
