@@ -1,4 +1,5 @@
 ./node_modules
-copiaCss.css
-./fonts
-./muestra
+.styles/copiaCss.css
+fonts
+muestra
+
