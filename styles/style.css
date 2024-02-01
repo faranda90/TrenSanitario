@@ -25,14 +25,10 @@ li {
     display: none;
   }
   #iconInst {
-    font-size: 25px;
-    justify-content: start;
-    padding-bottom: 70%;
+    display: none;
   }
   #iconTw {
-    font-size: 25px;
-    justify-content: start;
-    padding-bottom: 70%;
+    display: none;
   }
   .imgMuestra {
     height: 500px;
@@ -269,7 +265,7 @@ main img {
   height: 100px;
   background-color: #37bbed;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .contenedorPie p {
@@ -280,21 +276,25 @@ main img {
 
 #logo2 {
   background-color: #37bbed;
-  height: 95%;
-  display: flex;
+  height: 50%;
+  margin-top: 5%;
 }
 
 .iconRrss {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #iconInst {
-  font-size: 35px;
+  font-size: 30px;
+  color: white;
+  margin-top: 25%;
 }
 
 #iconTw {
-  font-size: 35px;
+  font-size: 30px;
+  margin-top: 25%;
+  color: white;
 }
 
 .copyfooter {
