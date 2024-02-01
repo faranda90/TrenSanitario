@@ -39,6 +39,12 @@ li {
   }
 }
 @media (min-width: 700px) {
+  #iconInst2 {
+    display: none;
+  }
+  #iconTw2 {
+    display: none;
+  }
   .errorLink {
     display: none;
   }
