@@ -166,6 +166,9 @@ main .ancorNoticias {
 main .ancorNoticias :hover {
   color: #37bbed;
 }
+main .tituloSecundario {
+  padding-left: 5%;
+}
 
 main section .card {
   margin: 5%;
