@@ -274,6 +274,9 @@ main .ancorContacto {
 main .ancorContacto :hover {
   color: #ffffff;
 }
+main .iconcard {
+  height: 35%;
+}
 
 main img {
   width: 100%;
