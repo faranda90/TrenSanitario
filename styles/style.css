@@ -115,8 +115,11 @@ main .imgCentral img {
 main .caja1 {
   background-color: #ffffff;
   position: relative;
-  top: 30%;
+  bottom: 5px;
   border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: medium;
 }
 main h4 {
   padding-top: 5px;
@@ -186,7 +189,7 @@ main section p {
   font-family: encode-sans condensed;
 }
 
-main .tituloContacto {
+main .tituloContacto, main .tituloContacto2 {
   font-family: encode-sans condensed;
   text-align: center;
   margin: 3% 0% 3%;
@@ -262,7 +265,9 @@ main .contact-form form button:focus {
 main .contact-info {
   background: #37bbed;
 }
-main .contact-info h3, main .contact-info ul, main .contact-info p {
+main .contact-info h3,
+main .contact-info ul,
+main .contact-info p {
   text-align: center;
   margin: 0 0 3rem 0;
   color: #ffffff;
@@ -276,6 +281,15 @@ main .ancorContacto :hover {
 }
 main .iconcard {
   height: 35%;
+}
+
+.ancorContacto2 {
+  text-decoration: none;
+}
+
+.tituloContacto2 {
+  text-align: start;
+  padding-top: 5%;
 }
 
 main img {

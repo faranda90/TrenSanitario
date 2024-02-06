@@ -1,19 +1,20 @@
 main{
     .imgCentral {
-        width: 100%;
-        height: auto;
+        @include image;
         img{
-            width: 100%;
-            height: auto;
+            @include image;
         }
     }
     
     .caja1 {
         background-color: #ffffff;
-
         position: relative;
-        top: 30%;
+        bottom: 5px;
         border-radius: 5px;
+        text-align: center;
+        font-weight: bold;
+        font-size: medium;
+        
     }
     h4 {
         padding-top: 5px;

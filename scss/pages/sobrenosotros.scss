@@ -1,10 +1,8 @@
 main{
     .imgCentralSn {
-        width: 100%;
-        height: auto;
+        @include image;
         img{
-            width: 100%;
-            height: auto;
+            @include image;
         }
 
     }
